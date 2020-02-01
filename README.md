@@ -31,4 +31,4 @@ $ curl -H "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7,zh-TW;q=0.6,pt;q
 
 ## Integrate with other frameworks
 
-It is easy to integrate with other frameworks by [Handler](https://godoc.org/github.com/clevergo/i18n#Handler) or [Middleware](https://godoc.org/github.com/clevergo/i18n#Middleware).
+It is easy to integrate with other frameworks by [Handler](https://godoc.org/github.com/clevergo/i18n#Handler) or [Middleware](https://godoc.org/github.com/clevergo/i18n#Middleware), and then retrieves translator in handler by [GetTranslator](https://godoc.org/github.com/clevergo/i18n#GetTranslator).
