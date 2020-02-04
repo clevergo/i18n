@@ -12,7 +12,7 @@ $ go run main.go
 ```
 
 ```
-## fallback language(English)
+## fallback language(default to English)
 $ curl "http://localhost:1234"
 Home
 

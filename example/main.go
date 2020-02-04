@@ -22,7 +22,9 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	translators = i18n.New()
+	translators = i18n.New(
+	// i18n.Fallback("en"), // fallback language, default to English.
+	)
 	store := i18n.NewFileStore("./translations", i18n.JSONFileDecoder{})
 	err := translators.Import(store)
 	if err != nil {
@@ -32,7 +34,11 @@ func main() {
 	mux := http.DefaultServeMux
 	mux.HandleFunc("/", index)
 	mux.HandleFunc("/hello", hello)
-	parsers := []i18n.LanguageParser{i18n.NewURLLanguageParser("lang"), i18n.NewCookieLanguageParser("lang"), i18n.HeaderLanguageParser{}}
+	parsers := []i18n.LanguageParser{
+		i18n.NewURLLanguageParser("lang"),    // from URL query
+		i18n.NewCookieLanguageParser("lang"), // from cookie
+		i18n.HeaderLanguageParser{},          // from Accept-Language header
+	}
 	handler := i18n.Handler(translators, mux, parsers...)
 	http.ListenAndServe(":1234", handler)
 }
