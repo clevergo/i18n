@@ -1,6 +1,6 @@
-# Internationalization [![Build Status](https://travis-ci.org/clevergo/i18n.svg?branch=master)](https://travis-ci.org/clevergo/i18n) [![Coverage Status](https://coveralls.io/repos/github/clevergo/i18n/badge.svg?branch=master)](https://coveralls.io/github/clevergo/i18n?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/i18n)](https://goreportcard.com/report/github.com/clevergo/i18n) [![GoDoc](https://godoc.org/github.com/clevergo/i18n?status.svg)](http://godoc.org/github.com/clevergo/i18n) [![Release](https://img.shields.io/github/release/clevergo/i18n.svg?style=flat-square)](https://github.com/clevergo/i18n/releases)
+# Internationalization [![Build Status](https://travis-ci.org/clevergo/i18n.svg?branch=master)](https://travis-ci.org/clevergo/i18n) [![Coverage Status](https://coveralls.io/repos/github/clevergo/i18n/badge.svg?branch=master)](https://coveralls.io/github/clevergo/i18n?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/i18n)](https://goreportcard.com/report/github.com/clevergo/i18n) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/i18n) [![Release](https://img.shields.io/github/release/clevergo/i18n.svg?style=flat-square)](https://github.com/clevergo/i18n/releases)
 
-This package is built on top of [text/language](https://godoc.org/golang.org/x/text/language) and [text/message](https://godoc.org/golang.org/x/text/message).
+This package is built on top of [text/language](https://pkg.go.dev/golang.org/x/text/language) and [text/message](https://pkg.go.dev/golang.org/x/text/message).
 
 ## Usage
 
@@ -31,4 +31,4 @@ $ curl -H "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7,zh-TW;q=0.6,pt;q
 
 ## Integrate with other frameworks
 
-It is easy to integrate with other frameworks by [Handler](https://godoc.org/github.com/clevergo/i18n#Handler) or [Middleware](https://godoc.org/github.com/clevergo/i18n#Middleware), and then retrieves translator in handler by [GetTranslator](https://godoc.org/github.com/clevergo/i18n#GetTranslator).
+It is easy to integrate with other frameworks by [Handler](https://pkg.go.dev/github.com/clevergo/i18n#Handler) or [Middleware](https://pkg.go.dev/github.com/clevergo/i18n#Middleware), and then retrieves translator in handler by [GetTranslator](https://pkg.go.dev/github.com/clevergo/i18n#GetTranslator).
