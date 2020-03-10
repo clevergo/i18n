@@ -7,7 +7,7 @@ This package is built on top of [text/language](https://pkg.go.dev/golang.org/x/
 Please take a look of the following [example](example):
 
 ```shell
-$ cd i18n/example
+$ cd example
 $ go run main.go
 ```
 
@@ -19,6 +19,12 @@ Home
 ## retrieve prefered language from URL query
 $ curl "http://localhost:1234?lang=zh"
 主页
+
+$ curl "http://localhost:1234?lang=zh-TW"
+主頁
+
+$ curl "http://localhost:1234?lang=zh-HK"
+主頁
 
 ## retrieve prefered language Cookie
 $ curl -b "lang=zh-Hant" "http://localhost:1234"
