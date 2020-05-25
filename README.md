@@ -1,4 +1,10 @@
-# Internationalization [![Build Status](https://travis-ci.org/clevergo/i18n.svg?branch=master)](https://travis-ci.org/clevergo/i18n) [![Coverage Status](https://coveralls.io/repos/github/clevergo/i18n/badge.svg?branch=master)](https://coveralls.io/github/clevergo/i18n?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/i18n)](https://goreportcard.com/report/github.com/clevergo/i18n) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/i18n) [![Release](https://img.shields.io/github/release/clevergo/i18n.svg?style=flat-square)](https://github.com/clevergo/i18n/releases)
+# Internationalization
+[![Build Status](https://travis-ci.org/clevergo/i18n.svg?branch=master)](https://travis-ci.org/clevergo/i18n)
+[![Coverage Status](https://coveralls.io/repos/github/clevergo/i18n/badge.svg?branch=master)](https://coveralls.io/github/clevergo/i18n?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/i18n)](https://goreportcard.com/report/github.com/clevergo/i18n)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/i18n)
+[![Sourcegraph](https://sourcegraph.com/github.com/clevergo/i18n/-/badge.svg)](https://sourcegraph.com/github.com/clevergo/i18n?badge)
+[![Release](https://img.shields.io/github/release/clevergo/i18n.svg?style=flat-square)](https://github.com/clevergo/i18n/releases)
 
 This package is built on top of [text/language](https://pkg.go.dev/golang.org/x/text/language) and [text/message](https://pkg.go.dev/golang.org/x/text/message).
 
