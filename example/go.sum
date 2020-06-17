@@ -1,7 +1,0 @@
-github.com/clevergo/clevergo v1.4.0 h1:FNRUZPRBLDMrwn+giPsc5+usEqJ+vqhnFSH5KX97AUE=
-github.com/clevergo/clevergo v1.4.0/go.mod h1:/BB51A8ohBG/GCHbN7mUPK6vJNm6XXC+4V/yS0c7RsA=
-github.com/clevergo/i18n v1.0.1 h1:Qb2cq0JWzzWNBmep3kdNF38PfHXfPn44Npaowcsaopw=
-github.com/clevergo/i18n v1.0.1/go.mod h1:1bALbvlWLHCWxQIL/of9I2uqLivc9CUWrun/S3y2zb0=
-golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
-golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
-golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
