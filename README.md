@@ -7,6 +7,11 @@
 
 This package is built on top of [text/language](https://pkg.go.dev/golang.org/x/text/language) and [text/message](https://pkg.go.dev/golang.org/x/text/message).
 
+
+```shell
+$ go get clevergo.tech/i18n
+```
+
 ## Usage
 
 Checkout [example](https://github.com/clevergo/examples/tree/master/i18n) for details.
