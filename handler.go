@@ -15,9 +15,9 @@ const (
 	translatorKey contextKey = iota
 )
 
-// GetTranslator returns a translator from request context.
-func GetTranslator(r *http.Request) *Translator {
-	t, _ := r.Context().Value(translatorKey).(*Translator)
+// GetTranslator returns a translator from context.
+func GetTranslator(ctx context.Context) *Translator {
+	t, _ := ctx.Value(translatorKey).(*Translator)
 	return t
 }
 

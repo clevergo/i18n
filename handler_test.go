@@ -57,7 +57,7 @@ func TestHeaderLanguageParser(t *testing.T) {
 func TestMiddleware(t *testing.T) {
 	var translator *Translator
 	var handler http.Handler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		translator = GetTranslator(r)
+		translator = GetTranslator(r.Context())
 	})
 
 	ts := New()
